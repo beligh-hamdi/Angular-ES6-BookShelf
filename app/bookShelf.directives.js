@@ -35,7 +35,7 @@ class UniqueBookTitle
   }
 }
 
-UniqueBookTitle.directiveFactory.$inject = ['$q', 'bookShelfSvc'];
+UniqueBookTitle.directiveFactory.$inject = ['$q', 'bookShelf.bookShelfSvc'];
 
 angular.module(moduleName, [])
   .directive('uniqueBookTitle', UniqueBookTitle.directiveFactory);

@@ -1,4 +1,4 @@
-var moduleName='bookShelf.services';
+
 
 const HTTP = new WeakMap();
 
@@ -38,9 +38,7 @@ class BookShelfService
   }
 }
 
-BookShelfService.bookShelfFactory.$inject = ['$http'];
+BookShelfService.$inject = ['$http'];
 
-angular.module(moduleName, [])
-  .factory('bookShelfSvc', BookShelfService.bookShelfFactory);
 
-export default moduleName;
+export default BookShelfService;

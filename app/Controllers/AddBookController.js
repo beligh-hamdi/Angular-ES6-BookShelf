@@ -31,6 +31,6 @@ class AddBookController{
     }
 }
 
-AddBookController.$inject = ['$timeout', 'bookShelfSvc'];
+AddBookController.$inject = ['$timeout', 'bookShelf.bookShelfSvc'];
 
 export default AddBookController;

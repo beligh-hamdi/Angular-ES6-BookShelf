@@ -1,5 +1,5 @@
 import { default as controllersModuleName } from './Controllers/bookShelf.controllers';
-import { default as servicesModuleName } from './bookShelf.services';
+import { default as servicesModuleName } from './Services/bookShelf.services';
 import { default as directivesModuleName } from './bookShelf.directives';
 
 var moduleName = 'bookShelf';

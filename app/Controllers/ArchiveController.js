@@ -15,6 +15,6 @@ class ArchiveController{
     }
 }
 
-ArchiveController.$inject = ['bookShelfSvc'];
+ArchiveController.$inject = ['bookShelf.bookShelfSvc'];
 
 export default ArchiveController;

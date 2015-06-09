@@ -39,6 +39,6 @@ class HomeController{
   }
 }
 
-HomeController.$inject = ['$timeout', 'bookShelfSvc'];
+HomeController.$inject = ['$timeout', 'bookShelf.bookShelfSvc'];
 
 export default HomeController;
